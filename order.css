@@ -1,0 +1,126 @@
+/*ORDER SUMMARY COMPONENT - STYLES*/
+
+/*body styles*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Hat Display', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:hsl(225, 100%, 94%) ;
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    margin: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 375px;
+    box-shadow: 0px 25px 20px hsla(245, 75%, 52%, 0.082);
+}
+
+.card-content{
+    padding: 35px;
+}
+
+#image-size{
+    width: 100%;
+    max-width: 375px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px 15px 0px 0px;
+}
+.title{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.card-description{
+    color: hsl(224, 23%, 55%);
+    margin-top: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.payment-price{
+    border-radius: 8px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.payment-summary{
+    display: flex;
+}
+
+.img-music{
+    margin-right: 10px;
+}
+
+.annual-plan{
+    color: black;
+    font-weight: 900;
+}
+
+.price-year{
+    color: gray;
+}
+
+.link{
+    color: hsl(245, 75%, 52%);
+    font-weight: 800;
+}
+
+.link:hover{
+    color: hsl(245, 85%, 68%);
+    text-decoration: none;
+}
+
+.btn-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 5px 0px;
+}
+
+.payment-btn{
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 15px hsla(245, 75%, 52%, 0.219);
+    margin-bottom: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.payment-btn:hover{
+    background-color: hsl(245, 85%, 68%);
+}
+
+.payment-cancel-order-btn{
+    border: none;
+    background: transparent;
+    color: gray;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
